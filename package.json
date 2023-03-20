@@ -1,0 +1,88 @@
+{
+  "name": "recunited-react-questionnaire",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/quicksand": "^4.5.1",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.2.7",
+    "@mui/styles": "^5.2.3",
+    "@mui/x-data-grid": "^5.6.0",
+    "@mui/x-data-grid-generator": "^5.6.0",
+    "@react-spring/three": "^9.4.1",
+    "@react-three/drei": "^8.8.1",
+    "@react-three/fiber": "^7.0.26",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.41",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/three": "^0.137.0",
+    "clsx": "^1.1.1",
+    "drei": "^2.2.21",
+    "file-saver": "^2.0.5",
+    "focus-formik-error": "^1.1.0",
+    "formik": "^2.2.9",
+    "formik-mui": "^4.0.0-alpha.3",
+    "formik-mui-lab": "^1.0.0-alpha.3",
+    "ipfs-http-client": "^60.0.0",
+    "jest-fetch-mock": "^3.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-error-overlay": "6.0.9",
+    "react-facebook-pixel": "^1.0.4",
+    "react-ga4": "^1.4.1",
+    "react-game-snake": "^1.0.4",
+    "react-google-login": "^5.2.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "react-spring": "^9.4.1",
+    "sass": "^1.49.7",
+    "three": "^0.137.0",
+    "three-stdlib": "^2.8.5",
+    "typescript": "^4.5.4",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "//": "See https://github.com/facebook/create-react-app/issues/11773",
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.11",
+    "@types/file-saver": "^2.0.5",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "enzyme": "^3.11.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
+  }
+}

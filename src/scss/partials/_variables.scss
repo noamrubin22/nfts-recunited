@@ -1,0 +1,15 @@
+// FONTS
+@font-face {
+  font-family: "serif";
+  src: url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap")
+    format("opentype");
+}
+// font
+$font-face-primary: "Rokkitt", serif;
+$font-face-secondary: "Open Sans", sans-serif;
+
+// COLORS
+$primary-bgcolor: #bcc4c3;
+$secondary-bgcolor: #ffffff;
+$primary-color: #424247;
+$secondary-color: #325745;

@@ -1,0 +1,61 @@
+@import "../partials/variables";
+@import "../partials/functions";
+@import "../partials/mixins";
+
+.container {
+  outline: 3px solid $primary-color;
+  min-height: calc((100vh / 2.5));
+  display: flex;
+
+  @include for-tablet-portrait-up {
+    min-height: calc((100vh / 2));
+  }
+}
+
+.login {
+  outline: 3px solid $primary-color;
+  display: flex;
+
+  @include for-tablet-portrait-up {
+    width: calc(100vw / 3);
+    outline: 3px solid $primary-color;
+    min-height: calc((100vh / 2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.snake {
+  display: none;
+
+  @include for-tablet-portrait-up {
+    min-height: calc((100vh / 2));
+    outline: 3px solid $primary-color;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.button {
+  font-size: fluid-length(1.5, 1.8);
+  font-family: $font-face-secondary;
+  color: $primary-color;
+  font-weight: 550;
+  width: 100%;
+  height: 100%;
+
+  &:hover {
+    background-color: $primary-bgcolor;
+  }
+}
+
+.diamond {
+  display: none;
+
+  @include for-tablet-portrait-up {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+}

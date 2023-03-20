@@ -1,0 +1,38 @@
+@import "../partials/variables";
+@import "../partials/functions";
+
+.header {
+  font-family: $font-face-primary;
+  font-size: fluid-length(2.9, 6);
+  color: $primary-color;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHeaderLarge,
+.subHeaderMiddle,
+.subHeaderSmall {
+  font-family: $font-face-secondary;
+  text-align: center;
+  margin: 0;
+  color: $primary-color;
+}
+
+.subHeaderLarge {
+  font-size: fluid-length(1, 1.2);
+  color: $primary-color;
+}
+
+.subHeaderMiddle {
+  font-size: fluid-length(1, 1.6);
+  color: $primary-color;
+}
+
+.subHeaderSmall {
+  font-size: fluid-length(0.8, 1.25);
+  color: $primary-color;
+}

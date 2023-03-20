@@ -1,0 +1,14 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+.container {
+  display: none;
+
+  @include for-tablet-portrait-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(calc((100vw / 3) - 2rem));
+    outline: 3px solid $primary-color;
+  }
+}

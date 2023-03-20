@@ -1,0 +1,12 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+.container {
+  display: flex;
+
+  height: calc(100vh / 4);
+
+  @include for-desktop-up {
+    height: calc(100vh / 4);
+  }
+}

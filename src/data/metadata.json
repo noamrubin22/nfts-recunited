@@ -1,0 +1,23 @@
+{
+  "name": "My NFT",
+  "description": "This is my NFT",
+  "image": "https://ipfs.io/ipfs/QmZsL5c8nYJPJ9jtwfAJvL7yGCnLQQUWbP7AgBzEUMVDoY",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Packaging",
+      "value": "Clean"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "OG"
+    }
+  ]
+}

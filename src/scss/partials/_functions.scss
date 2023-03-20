@@ -1,0 +1,14 @@
+@function fluid-length(
+  $min-length,
+  $max-length,
+  $min-viewport: 23.4375,
+  $max-viewport: 90
+) {
+  $slope: ($max-length - $min-length) / ($max-viewport - $min-viewport);
+
+  @return clamp(
+    #{$min-length}rem,
+    #{$min-length}rem + #{$slope * 100}vw - #{$slope * $min-viewport}rem,
+    #{$max-length}rem
+  );
+}
