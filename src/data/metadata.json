@@ -1,23 +1,57 @@
 {
-  "name": "My NFT",
-  "description": "This is my NFT",
+  "name": "My Recunited NFT",
+  "description": "Congratz! This NFT proofs that you did Recunited's Cultural Fit Test.",
   "image": "https://ipfs.io/ipfs/QmZsL5c8nYJPJ9jtwfAJvL7yGCnLQQUWbP7AgBzEUMVDoY",
   "attributes": [
     {
-      "trait_type": "Background",
-      "value": "Clean"
+      "trait_type": "Enjoyment",
+      "value": "62%",
+      "Category": "Innovation"
     },
     {
-      "trait_type": "Type",
-      "value": "Rare"
+      "trait_type": "Self determination",
+      "value": "33%",
+      "Category": "Innovation"
     },
     {
-      "trait_type": "Packaging",
-      "value": "Clean"
+      "trait_type": "Variety",
+      "value": "57%",
+      "Category": "Innovation"
     },
     {
-      "trait_type": "Personality",
-      "value": "OG"
+      "trait_type": "Adaption",
+      "value": "38%",
+      "Category": "Stability"
+    },
+    {
+      "trait_type": "Influence",
+      "value": "61%",
+      "Category": "Stability"
+    },
+    {
+      "trait_type": "Maintenance",
+      "value": "43%",
+      "Category": "Stability"
+    },
+    {
+      "trait_type": "Safety",
+      "value": "38%",
+      "Category": "Stability"
+    },
+    {
+      "trait_type": "Success",
+      "value": "62%",
+      "Category": "Stability"
+    },
+    {
+      "trait_type": "Connectedness",
+      "value": "39%",
+      "Category": "Team focus"
+    },
+    {
+      "trait_type": "Goodwill",
+      "value": "38%",
+      "Category": "Team focus"
     }
   ]
 }

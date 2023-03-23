@@ -1,0 +1,18 @@
+{
+  "image": "https://ipfs.io/ipfs/QmTns7W7RekgsXS8tQMWKEYXXdsQsoPqN5XiK2Dt5EUDx8",
+  "description": "This NFT is a proof of investment in allygatr, giving access to benefits and voting rights in our investingsDAO.",
+  "attributes": [
+    {
+      "trait_type": "For more info",
+      "value": "www.allygatr.com/nft"
+    },
+    {
+      "trait_type": "Amount invested",
+      "value": 50.0
+    },
+    {
+      "trait_type": "Since",
+      "value": "20-02-2022"
+    }
+  ]
+}

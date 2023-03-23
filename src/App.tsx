@@ -7,7 +7,11 @@ import { useState } from "react";
 function App() {
   const [metaDataLink, setMetaDataLink] = useState<string>("");
   return (
-    <div>
+    <div
+      className="p-4"
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
+      <img src="/recunited_logo_full.webp" alt="Recunited logo" width="400vw" />
       <IPFS setMetaDataLink={setMetaDataLink} />
       <MintingBox metaDataLink={metaDataLink} />
     </div>

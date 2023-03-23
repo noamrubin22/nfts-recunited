@@ -7,7 +7,13 @@ div:not(.diamond) > canvas {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+/* 
 .MuiDataGrid-cell--editable {
   background: #eeeeee;
+} */
+
+.body {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
 }

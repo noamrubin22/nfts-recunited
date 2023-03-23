@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   background-color: $secondary-bgcolor;
   outline: 3px solid rgb(34, 32, 32);
+  color: $primary-color;
 
   @include for-tablet-portrait-up {
     outline: none;

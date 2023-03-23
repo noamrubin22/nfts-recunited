@@ -9,8 +9,8 @@ interface IPFSInterface {
 const IPFS: React.FC<IPFSInterface> = ({ setMetaDataLink }) => {
   const [metaData, setMetaData] = useState<{ cid: CID; path: string }[]>([]);
 
-  const projectId = "";
-  const projectSecret = "";
+  const projectId = "2NH5NBFIfvujRZfRJ9VAMwkT2fk";
+  const projectSecret = "23600c4fbb8b5f5af8f8a16fedf46e24";
   const authorization = "Basic " + btoa(projectId + ":" + projectSecret);
 
   const ipfs = create({
@@ -45,7 +45,7 @@ const IPFS: React.FC<IPFSInterface> = ({ setMetaDataLink }) => {
     console.log("https://recunited.infura-ipfs.io/ipfs/" + metaData[0]?.path);
   }, [metaData]);
 
-  return <div>{ipfs && <h1>IPFS functionality</h1>}</div>;
+  return <div></div>;
 };
 
 export default IPFS;
