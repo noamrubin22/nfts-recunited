@@ -49,7 +49,7 @@ const MintingBox: React.FC<MintingBoxInterface> = ({ metaDataLink }) => {
             onSubmit={handleSubmit}
           >
             <input
-              className="w-full rounded-full py-2.5 text-sm font-medium leading-5 border-1 border text-black text-center border-white/20"
+              className="w-full rounded-full py-2.5 text-sm font-medium leading-5 border-1 border text-white text-center bg-[#02000f] border-white/20"
               placeholder="Fill in your wallet address"
               type="text"
               id="walletAddress"

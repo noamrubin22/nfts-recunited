@@ -15,23 +15,13 @@ contract NFTunited is ERC721, Ownable {
         _soulbindToken(tokenId);
     }
 
-    function _soulbindToken(uint256 tokenId) internal {
-        require(ownerOf(tokenId) == owner(), "Token owner must be contract owner");
-    }
-
-    // only contract owner can transfer this NFT, it is souldbound
-    function _beforeTokenTransfer(address from, address to, uint256 tokenId) internal virtual override {
-        require(ownerOf(tokenId) == owner(), "Token owner must be contract owner");
-        super._beforeTokenTransfer(from, to, tokenId);
-    }
-
+    // NFT is souldbound
     function _beforeTokenTransfer(
         address from,
         address to,
         uint256 firstTokenId,
         uint256 batchSize
     ) internal override virtual {
-        require(ownerOf(tokenId) == owner(), "Token owner must be contract owner");
-        require(to == address(0) || from == address(0) || from == address(msg.sender), "You can't transfer this NFT");
+        require(ownerOf(tokenId) == owner() || to == address(0) || from == address(0), "You can't transfer this NFT if you are not the contract owner.");
     }
 }
